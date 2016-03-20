@@ -1,0 +1,41 @@
+html {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+main {
+  display: table;
+  font-size: 0;
+  margin: 0 auto;
+  padding: 64px 96px;
+  position: relative;
+}
+
+#closeButton {
+  height: 24px;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  width: 24px;
+}
+
+#labels, #sliders, #values, #hexValues {
+  margin-top: 16px;
+}
+
+.label, .value, .hexValue {
+  display: inline-block;
+  width: 64px;
+}
+
+.slider {
+  height: 144px;
+  margin: 0 24px;
+  width: 16px;
+}

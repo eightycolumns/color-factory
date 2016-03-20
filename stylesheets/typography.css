@@ -1,0 +1,18 @@
+main {
+  font-family: sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.label {
+  font-size: 20px;
+}
+
+.value, .hexValue {
+  font-size: 16px;
+}

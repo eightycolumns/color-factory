@@ -1,0 +1,49 @@
+<!doctype html>
+
+<meta charset='utf-8'>
+<title>Color Factory</title>
+
+<link rel='stylesheet' href='stylesheets/reset.css'>
+
+<link rel='stylesheet' href='stylesheets/layout.css'>
+<link rel='stylesheet' href='stylesheets/palette.css'>
+<link rel='stylesheet' href='stylesheets/typography.css'>
+
+<link rel='stylesheet' href='stylesheets/miscellaneous.css'>
+
+<main>
+  <svg id='closeButton'></svg>
+
+  <h1>Color Factory</h1>
+
+  <div id='labels'>
+    <span class='label' id='rLabel'>R</span>
+    <span class='label' id='gLabel'>G</span>
+    <span class='label' id='bLabel'>B</span>
+  </div>
+
+  <div id='sliders'>
+    <svg class='slider' id='rSlider'></svg>
+    <svg class='slider' id='gSlider'></svg>
+    <svg class='slider' id='bSlider'></svg>
+  </div>
+
+  <div id='values'>
+    <span class='value' id='rValue'></span>
+    <span class='value' id='gValue'></span>
+    <span class='value' id='bValue'></span>
+  </div>
+
+  <div id='hexValues'>
+    <span class='hexValue' id='rHexValue'></span>
+    <span class='hexValue' id='gHexValue'></span>
+    <span class='hexValue' id='bHexValue'></span>
+  </div>
+</main>
+
+<script src='cadenza.js'></script>
+
+<script src='close-button.js'></script>
+<script src='sliders.js'></script>
+
+<script src='main.js'></script>
