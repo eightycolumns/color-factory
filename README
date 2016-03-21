@@ -1,0 +1,16 @@
+Description:
+
+Color Factory's background color and decimal/hexadecimal readouts respond as you
+drag the sliders to adjust individual RGB color components.
+
+Click in a slider's track and its thumb will jump to the point clicked.
+
+The last slider used is active and can be nudged with the up/down arrow keys.
+Click anywhere outside of a slider to deactivate it.
+
+Color Factory uses Cadenza (https://github.com/eightycolumns/cadenza).
+
+
+Demonstration:
+
+https://cdn.rawgit.com/eightycolumns/color-factory/master/index.html
